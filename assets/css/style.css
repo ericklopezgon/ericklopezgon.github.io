@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Raleway:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-expand-lg .navbar-brand {
+    font-family: 'Caveat', cursive;
+}
+
+.navbar-brand{
+    width: 100px;
+}
+
+.navbar .container {
+    margin: 0;
+}
+
+header {
+    margin-top: 80px;
+    display: flex;
+}
+
+aside {
+    float: left;
+    width: 40%;
+    padding-right: 15px;
+    margin-right: 15px;
+    margin-top: 8px;
+    background-color: rgb(200, 202, 204);
+}
