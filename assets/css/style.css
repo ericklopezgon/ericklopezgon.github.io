@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Raleway:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;1,300;1,500&family=Julius+Sans+One&display=swap');
 
 * {
     margin: 0;
@@ -6,23 +6,28 @@
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 h1 h2 h3 {
     font-weight: 500;
 }
 
+h5 {
+    font-style: italic;
+    font-size: 15px;
+}
+
 h4 h5 p li {
     font-weight: 300;
 }
 
-p li {
-    font-size: 5px;
+p {
+    font-size: 14px;
 }
 
 .navbar-expand-lg .navbar-brand {
-    /* letras o img */
+    font-style: italic;
 }
 
 .navbar-brand{
@@ -44,22 +49,23 @@ p li {
 }
 
 .textdiv {
-    background-image: url(../img/bg-portfolio.png);
-    width: 100%;
-    height: 60px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-left: 20px;
-    margin-right: 20px;
-
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 5px;
 }
 
 .portafolio { 
-    margin-top: -85px;
+    margin-top: -90px;
+    background-color: rgb(12, 12, 12);
+    padding-bottom: 10px;
+
 }
 
 main {
-    margin: 100px;
+    margin: 85px;
 }
 
 main h3 { 
@@ -67,4 +73,7 @@ main h3 {
 }
 
 footer {
+    background-color: rgb(41, 39, 39);
+    color: white;
+    text-align: center;
 }
