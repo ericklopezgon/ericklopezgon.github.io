@@ -5,6 +5,22 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 h2 h3 {
+    font-weight: 500;
+}
+
+h4 h5 p li {
+    font-weight: 300;
+}
+
+p li {
+    font-size: 5px;
+}
+
 .navbar-expand-lg .navbar-brand {
     font-family: 'Caveat', cursive;
 }
@@ -18,13 +34,26 @@
 }
 
 .container {
-    margin-top: 80px;
+    margin-top: 90px;
+    margin-bottom: 15px;
 }
 
 .container .row .col-sm-8 .icons {
     justify-content: space-evenly;
 }
 
+.textdiv {
+    background-image: url(../img/bg-portfolio.png);
+    width: 100%;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .portafolio { 
     justify-content: space-evenly;
+    margin-top: -80px;
+}
+
+footer {
 }
