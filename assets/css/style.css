@@ -22,7 +22,7 @@ p li {
 }
 
 .navbar-expand-lg .navbar-brand {
-    font-family: 'Caveat', cursive;
+    /* letras o img */
 }
 
 .navbar-brand{
@@ -31,6 +31,7 @@ p li {
 
 .navbar .container {
     margin: 0;
+    padding-left: 100px;
 }
 
 .container {
@@ -54,8 +55,15 @@ p li {
 }
 
 .portafolio { 
-    justify-content: space-evenly;
     margin-top: -85px;
+}
+
+main {
+    margin: 100px;
+}
+
+main h3 { 
+    text-align: center;
 }
 
 footer {
