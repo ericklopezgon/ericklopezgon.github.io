@@ -35,7 +35,7 @@ p li {
 
 .container {
     margin-top: 90px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .container .row .col-sm-8 .icons {
@@ -48,11 +48,14 @@ p li {
     height: 60px;
     background-repeat: no-repeat;
     background-size: contain;
+    margin-left: 20px;
+    margin-right: 20px;
+
 }
 
 .portafolio { 
     justify-content: space-evenly;
-    margin-top: -80px;
+    margin-top: -85px;
 }
 
 footer {
