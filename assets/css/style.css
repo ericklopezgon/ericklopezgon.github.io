@@ -59,6 +59,14 @@ p {
     padding-bottom: 10px;
 }
 
+.portafolio .container .row .col-sm-4.col-xs-12 {
+    padding: 10px;
+}
+
+.portafolio .container .row .col-sm-6.col-xs-12 {
+    padding: 10px;
+}
+
 main {
     margin: 85px;
 }
