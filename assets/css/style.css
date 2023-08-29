@@ -71,6 +71,10 @@ main {
     margin: 85px;
 }
 
+main div{
+    background-image: url(./fondo-textura-pared-pintada-blanco.jpg);
+}
+
 main h3 { 
     text-align: center;
 }
